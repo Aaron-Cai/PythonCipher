@@ -74,6 +74,7 @@ def getRandomKey():
 def main():
 	if(len(sys.argv) != 4):
 		print 'invalid input'
+		return
 	else:
 		inputFileName = sys.argv[-3]
 		outputFileName = sys.argv[-2]
