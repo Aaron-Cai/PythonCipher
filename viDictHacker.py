@@ -9,7 +9,7 @@ def hackvigenere(ciphertext):
 		decrytedtext = vigenereCipher.decryptMessage(word,ciphertext)
 		if detectEnglish.isEnglish(decrytedtext,40):
 			print 'Possible encryption break:'
-			print 'key' + word + ':' + decrytedtext[:100]
+			print 'key ' + word + ':' + decrytedtext[:100]
 			print 'enter d for done ,or just press enter to continue'
 			response = raw_input('>')
 			if response.upper().startswith('D'):

@@ -16,7 +16,7 @@ def getLetterCount(message):
 	for letter in message.upper():
 		if letter in LETTERS:
 			letterCount[letter] += 1
-		return letterCount
+	return letterCount
 
 def getItemAtIndexZero(x):
 	return x[0]
